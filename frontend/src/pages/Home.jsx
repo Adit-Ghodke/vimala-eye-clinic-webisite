@@ -99,9 +99,10 @@ export default function Home() {
                     height="100%"
                     frameBorder="0"
                     style={{ border: 0, filter: "grayscale(0.2) contrast(1.1)" }}
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15065.17646698144!2d73.0487532!3d19.2949755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bd1b490f2095%3A0xe5a3f2b48cd04c27!2sVimala%20Eye%20Hospital%2C%20Bhiwandi!5e0!3m2!1sen!2sin!4v1714249129532!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15063.498064694402!2d73.0348936!3d19.2878224!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bded94302991%3A0x2c11fa1cfbcd276b!2sVimala%20Eye%20Hospital%20Bhiwandi%20%7C%20Dr.%20Anoop%20Mishra!5e0!3m2!1sen!2sin!4v1777549525781!5m2!1sen!2sin"
                     allowFullScreen
                     loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
                   ></iframe>
                 </div>
 
