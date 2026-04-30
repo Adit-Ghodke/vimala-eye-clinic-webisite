@@ -5,6 +5,7 @@ import Services from './pages/Services';
 import Doctors from './pages/Doctors';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import useKonamiCode from './hooks/useKonamiCode';
 
 
@@ -111,6 +112,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className={isRainbow ? "rainbow-mode" : ""}>
         <MainLayout />
         {isRainbow && (
