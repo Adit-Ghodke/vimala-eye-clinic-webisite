@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Phacoemulsification Cataract Surgery",
+    "description": "Our expertise lies in rendering proficient and experienced surgeons for Phacoemulsification on Cataract.",
+    "icon": "phaco",
+    "image": "/services/phaco.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Glaucoma",
+    "description": "Glaucoma can result in partial or permanent loss of vision if left undiagnosed.",
+    "icon": "glaucoma",
+    "image": "/services/glaucoma.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Lasik & Refractive Surgery",
+    "description": "Popular surgical method to address vision issues that include elimination of dependency on spectacles.",
+    "icon": "lasik",
+    "image": "/services/lasik.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Orbit and Oculoplastic Surgery",
+    "description": "Our specialized branch in eye surgery to treat or reconstruct the areas surrounding the eyes.",
+    "icon": "oculoplastic",
+    "image": "/services/oculoplastic.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Retina Evaluation",
+    "description": "The retina resembles the film of a camera, a meager yet complex layer toward the rear of the eye that gets the engaged pictures from the focal points in front.",
+    "icon": "retina",
+    "image": "/services/retina.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Paediatric Ophthalmology",
+    "description": "Paediatric ophthalmology deals with the diagnosis and treatment of eye diseases in children.",
+    "icon": "pediatric",
+    "image": "/services/pediatric.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Low Vision Aids",
+    "description": "Low vision aids will help to deal with your vision loss. To find out more consult a doctor.",
+    "icon": "low-vision",
+    "image": "/services/low-vision.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Ocula Prosthesis",
+    "description": "An ocular prosthesis is an artificial eye made of medical grade plastic that replaces natural eye.",
+    "icon": "prosthesis",
+    "image": "/services/prosthesis.jpeg"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Anoop Mishra",
+    "role": "Lead Ophthalmologist",
+    "qualifications": "MBBS, MS (Ophthal), FICO (London)",
+    "bio": "Our Dr. Anoop Mishra is practicing ophthalmology since 8 years after completing Masters in Ophtalmology in 2014. We at Vimala Eye Hospital are one of the most recognized Eye doctors the city has. Vimala Eye Hospital has cutting-edge facilities both for basic and advanced diagnostic tests and surgeries.\n\nThe providers at Vimala Eye Hospital in Bhiwandi area welcome you. Specializing in vision care for the whole family, we provide advanced diagnostic and treatment options for conditions such as macular degeneration, cataracts, and diabetic-related eye concerns. Our personalized care results in optimum patient outcomes for everyone. We invite you to get to know our St. Paul ophthalmologists and optometrists.",
+    "photo": "/doctors/anoop.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Amit Khedekar",
+    "role": "",
+    "qualifications": "MS (KEM HOSPITAL MUMBAI) DNB FAEH (ARAVIND EYE HOSPITAL MADURAI) FAICO",
+    "bio": "",
+    "photo": "/doctors/amit_k.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ameya Ingawale",
+    "role": "",
+    "qualifications": "MBBS, DNB Ophthalmology (Sankara Eye Care Institutions), FCRS, FICO(Lon), MRCS(Edin).",
+    "bio": "",
+    "photo": "/doctors/ameya.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Amit B. Jain",
+    "role": "Consultant",
+    "qualifications": "MBBS, MD. (AIIMS, NEW DELHI), FMRF (SANKARA NETHRALAYA, CHENNAI), MMC REG. NO. – 2007/04/1252",
+    "bio": "",
+    "photo": ""
+  }
+]

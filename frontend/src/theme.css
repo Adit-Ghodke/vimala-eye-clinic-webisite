@@ -1,0 +1,74 @@
+/* Design Tokens for Vimala Eye Hospital */
+:root {
+  /* Core Colors */
+  --color-slate-navy: #0f172a;
+  --color-glass-border: rgba(255, 255, 255, 0.3);
+  --color-glass-bg: rgba(255, 255, 255, 0.15);
+
+  /* Gradients */
+  --gradient-peach: linear-gradient(135deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+  --gradient-mint: linear-gradient(135deg, #43E97B 0%, #38F9D7 100%);
+  --gradient-clinical-blue: linear-gradient(135deg, #00C6FF 0%, #0072FF 100%);
+
+  /* Spacing Scale */
+  --space-unit: 4px;
+  --space-sm: calc(var(--space-unit) * 2);
+  /* 8px */
+  --space-md: calc(var(--space-unit) * 4);
+  /* 16px */
+  --space-lg: calc(var(--space-unit) * 8);
+  /* 32px */
+  --space-xl: calc(var(--space-unit) * 16);
+  /* 64px */
+
+  /* Breakpoints */
+  --bp-mobile: 640px;
+  --bp-tablet: 768px;
+  --bp-desktop: 1024px;
+  --bp-large: 1280px;
+
+  /* Glassmorphism Presets */
+  --glass-blur: blur(24px);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* Base Utility Overrides */
+.text-slate-navy {
+  color: var(--color-slate-navy);
+}
+
+.bg-peach-gradient {
+  background: var(--gradient-peach);
+}
+
+.bg-mint-gradient {
+  background: var(--gradient-mint);
+}
+
+.bg-clinical-blue-gradient {
+  background: var(--gradient-clinical-blue);
+}
+
+.glass-card {
+  background: var(--color-glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--color-glass-border);
+  box-shadow: var(--glass-shadow);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    box-shadow 0.4s ease,
+    border-color 0.4s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 12px 48px 0 rgba(255, 255, 255, 0.1), var(--glass-shadow);
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .glass-card {
+    transition: none;
+    transform: none !important;
+  }
+}
